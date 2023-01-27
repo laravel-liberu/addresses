@@ -1,22 +1,22 @@
 {
-    "name": "laravel-enso/addresses",
+    "name": "cgdsoftware/addresses",
     "description": "Addresses Manager for Laravel Enso",
     "keywords": [
-        "laravel-enso",
+        "cgdsoftware",
         "addresses",
         "laravel"
     ],
     "type": "library",
     "require": {
-        "laravel-enso/core": "^8.0",
-        "laravel-enso/countries": "^2.0",
-        "laravel-enso/enums": "^2.0",
-        "laravel-enso/forms": "^4.0",
-        "laravel-enso/google": "^2.0",
-        "laravel-enso/helpers": "^2.0",
-        "laravel-enso/migrator": "^2.0",
-        "laravel-enso/rememberable": "^3.0",
-        "laravel-enso/select": "^4.0"
+        "cgdsoftware/core": "^8.0",
+        "cgdsoftware/countries": "^2.0",
+        "cgdsoftware/enums": "^2.0",
+        "cgdsoftware/forms": "^4.0",
+        "cgdsoftware/google": "^2.0",
+        "cgdsoftware/helpers": "^2.0",
+        "cgdsoftware/migrator": "^2.0",
+        "cgdsoftware/rememberable": "^3.0",
+        "cgdsoftware/select": "^4.0"
     },
     "license": "MIT",
     "authors": [
@@ -28,7 +28,7 @@
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         }
     ],
