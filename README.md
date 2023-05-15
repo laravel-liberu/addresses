@@ -7,9 +7,9 @@
 [![Total Downloads](https://poser.pugx.org/laravel-enso/addresses/downloads)](https://packagist.org/packages/laravel-enso/addresses)
 [![Latest Stable Version](https://poser.pugx.org/laravel-enso/addresses/version)](https://packagist.org/packages/laravel-enso/addresses)
 
-Free-form addresses manager for [Laravel Enso](https://github.com/laravel-enso/Enso)
+Free-form addresses manager for [Laravel Liberu](https://github.com/laravel-enso/Liberu)
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-enso/Liberu) ecosystem.
 
 There is a front end implementation for this this api in the [accessories](https://github.com/enso-ui/accessories) package.
 
