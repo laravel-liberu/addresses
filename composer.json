@@ -47,5 +47,8 @@
                 "LaravelEnso\\Addresses\\UserServiceProvider"
             ]
         }
+    },
+    "require-dev": {
+        "rector/rector": "^0.17.0"
     }
 }
