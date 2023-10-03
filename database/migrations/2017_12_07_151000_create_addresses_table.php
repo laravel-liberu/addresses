@@ -35,8 +35,7 @@ return new class extends Migration
             $table->boolean('is_billing');
             $table->boolean('is_shipping');
 
-            $table->integer('created_by')->unsigned()->index()->nullable();
-            $table->foreign('created_by')->references('id')->on('users');
+            $table->foreignId('created_by')->nullable()->constrained('users')->index()->name('addresses_created_by_foreign');
 
             $table->timestamps();
         });
