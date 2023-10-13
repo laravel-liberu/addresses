@@ -14,7 +14,7 @@ class AppServiceProvider extends ServiceProvider
 
     private function load()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/addresses.php', 'enso.addresses');
+        $this->mergeConfigFrom(__DIR__.'/../config/addresses.php', 'liberu.addresses');
 
         $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
 
@@ -27,14 +27,14 @@ class AppServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/../database/factories' => database_path('factories'),
-        ], ['addresses-factory', 'enso-factories']);
+        ], ['addresses-factory', 'liberu-factories']);
 
         $this->publishes([
             __DIR__.'/../database/seeders' => database_path('seeders'),
-        ], ['addresses-seeder', 'enso-seeders']);
+        ], ['addresses-seeder', 'liberu-seeders']);
 
         $this->publishes([
-            __DIR__.'/../config' => config_path('enso'),
-        ], ['addresses-config', 'enso-config']);
+            __DIR__.'/../config' => config_path('liberu'),
+        ], ['addresses-config', 'liberu-config']);
     }
 }

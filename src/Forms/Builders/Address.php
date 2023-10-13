@@ -20,7 +20,7 @@ class Address
 
     public function create(?int $countryId)
     {
-        $countryId ??= Config::get('enso.addresses.defaultCountryId');
+        $countryId ??= Config::get('liberu.addresses.defaultCountryId');
         $country = Country::find($countryId);
 
         return $this->prepare($country)

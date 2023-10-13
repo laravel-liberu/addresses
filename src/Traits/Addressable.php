@@ -11,7 +11,7 @@ trait Addressable
     public static function bootAddressable()
     {
         self::deleting(function ($model) {
-            $shouldRestrict = Config::get('enso.addresses.onDelete') === 'restrict'
+            $shouldRestrict = Config::get('liberu.addresses.onDelete') === 'restrict'
                 && $model->addresses()->exists();
 
             if ($shouldRestrict) {
@@ -22,7 +22,7 @@ trait Addressable
         });
 
         self::deleted(function ($model) {
-            if (Config::get('enso.addresses.onDelete') === 'cascade') {
+            if (Config::get('liberu.addresses.onDelete') === 'cascade') {
                 $model->addresses()->delete();
             }
         });

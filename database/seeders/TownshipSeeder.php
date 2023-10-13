@@ -49,7 +49,7 @@ class TownshipSeeder extends Seeder
     private function path(array $path = []): string
     {
         return Collection::wrap([
-            base_path('vendor/laravel-enso/addresses/database/townships'), ...$path,
+            base_path('vendor/laravel-liberu/addresses/database/townships'), ...$path,
         ])->implode(DIRECTORY_SEPARATOR);
     }
 }

@@ -49,7 +49,7 @@ class LocalitySeeder extends Seeder
     private function path(array $path = []): string
     {
         return Collection::wrap([
-            base_path('vendor/laravel-enso/addresses/database/cities'), ...$path,
+            base_path('vendor/laravel-liberu/addresses/database/cities'), ...$path,
         ])->implode(DIRECTORY_SEPARATOR);
     }
 }

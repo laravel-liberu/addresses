@@ -76,7 +76,7 @@ class PostcodeSeeder extends Seeder
     private function path(array $path = []): string
     {
         return Collection::wrap([
-            base_path('vendor/laravel-enso/addresses/database/postcodes'), ...$path,
+            base_path('vendor/laravel-liberu/addresses/database/postcodes'), ...$path,
         ])->implode(DIRECTORY_SEPARATOR);
     }
 }

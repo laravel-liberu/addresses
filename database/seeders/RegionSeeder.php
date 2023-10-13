@@ -50,7 +50,7 @@ class RegionSeeder extends Seeder
     private function path(array $path = []): string
     {
         return Collection::wrap([
-            base_path('vendor/laravel-enso/addresses/database/regions'), ...$path,
+            base_path('vendor/laravel-liberu/addresses/database/regions'), ...$path,
         ])->implode(DIRECTORY_SEPARATOR);
     }
 }
