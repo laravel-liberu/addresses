@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Addresses;
+namespace LaravelLiberu\Addresses;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Addresses\Dynamics\Relations\User\Addresses;
-use LaravelEnso\DynamicMethods\Services\Methods;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Addresses\Dynamics\Relations\User\Addresses;
+use LaravelLiberu\DynamicMethods\Services\Methods;
+use LaravelLiberu\Users\Models\User;
 
 class UserServiceProvider extends ServiceProvider
 {

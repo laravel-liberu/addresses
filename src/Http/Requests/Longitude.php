@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Addresses\Http\Requests;
+namespace LaravelLiberu\Addresses\Http\Requests;
 
 use Illuminate\Contracts\Validation\Rule;
 

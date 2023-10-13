@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Addresses\Http\Controllers;
+namespace LaravelLiberu\Addresses\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Addresses\Http\Requests\ValidateAddressRequest;
-use LaravelEnso\Addresses\Models\Address;
+use LaravelLiberu\Addresses\Http\Requests\ValidateAddressRequest;
+use LaravelLiberu\Addresses\Models\Address;
 
 class Update extends Controller
 {

@@ -1,20 +1,20 @@
 <?php
 
-namespace LaravelEnso\Addresses\Models;
+namespace LaravelLiberu\Addresses\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
-use LaravelEnso\Addresses\Services\Coordinates;
-use LaravelEnso\Companies\Models\Company;
-use LaravelEnso\Countries\Models\Country;
-use LaravelEnso\Helpers\Traits\AvoidsDeletionConflicts;
-use LaravelEnso\Helpers\Traits\UpdatesOnTouch;
-use LaravelEnso\People\Models\Person;
-use LaravelEnso\Rememberable\Traits\Rememberable;
-use LaravelEnso\TrackWho\Traits\CreatedBy;
+use LaravelLiberu\Addresses\Services\Coordinates;
+use LaravelLiberu\Companies\Models\Company;
+use LaravelLiberu\Countries\Models\Country;
+use LaravelLiberu\Helpers\Traits\AvoidsDeletionConflicts;
+use LaravelLiberu\Helpers\Traits\UpdatesOnTouch;
+use LaravelLiberu\People\Models\Person;
+use LaravelLiberu\Rememberable\Traits\Rememberable;
+use LaravelLiberu\TrackWho\Traits\CreatedBy;
 
 class Address extends Model
 {

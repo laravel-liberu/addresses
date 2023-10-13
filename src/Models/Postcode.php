@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Addresses\Models;
+namespace LaravelLiberu\Addresses\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\Countries\Models\Country;
+use LaravelLiberu\Countries\Models\Country;
 
 class Postcode extends Model
 {

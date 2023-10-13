@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Addresses\Services;
+namespace LaravelLiberu\Addresses\Services;
 
-use LaravelEnso\Addresses\Models\Address;
+use LaravelLiberu\Addresses\Models\Address;
 
 class Coordinates
 {

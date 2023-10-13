@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Addresses\Traits;
+namespace LaravelLiberu\Addresses\Traits;
 
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Addresses\Models\Address;
+use LaravelLiberu\Addresses\Models\Address;
 use Symfony\Component\HttpKernel\Exception\ConflictHttpException;
 
 trait Addressable

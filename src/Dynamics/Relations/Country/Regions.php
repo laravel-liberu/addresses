@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Addresses\Dynamics\Relations\Country;
+namespace LaravelLiberu\Addresses\Dynamics\Relations\Country;
 
 use Closure;
-use LaravelEnso\Addresses\Models\Region;
-use LaravelEnso\DynamicMethods\Contracts\Method;
+use LaravelLiberu\Addresses\Models\Region;
+use LaravelLiberu\DynamicMethods\Contracts\Method;
 
 class Regions implements Method
 {

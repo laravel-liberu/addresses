@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Addresses\Http\Responses;
+namespace LaravelLiberu\Addresses\Http\Responses;
 
 use Illuminate\Contracts\Support\Responsable;
-use LaravelEnso\Addresses\Http\Resources\Address as Resource;
-use LaravelEnso\Addresses\Models\Address;
+use LaravelLiberu\Addresses\Http\Resources\Address as Resource;
+use LaravelLiberu\Addresses\Models\Address;
 
 class Index implements Responsable
 {

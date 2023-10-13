@@ -34,17 +34,17 @@
     ],
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Addresses\\": "src/",
-            "LaravelEnso\\Addresses\\Database\\Factories\\": "database/factories/",
-            "LaravelEnso\\Addresses\\Database\\Seeders\\": "database/seeders/"
+            "LaravelLiberu\\Addresses\\": "src/",
+            "LaravelLiberu\\Addresses\\Database\\Factories\\": "database/factories/",
+            "LaravelLiberu\\Addresses\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Addresses\\AppServiceProvider",
-                "LaravelEnso\\Addresses\\CountryServiceProvider",
-                "LaravelEnso\\Addresses\\UserServiceProvider"
+                "LaravelLiberu\\Addresses\\AppServiceProvider",
+                "LaravelLiberu\\Addresses\\CountryServiceProvider",
+                "LaravelLiberu\\Addresses\\UserServiceProvider"
             ]
         }
     },

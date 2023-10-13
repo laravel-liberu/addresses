@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Addresses\Http\Controllers;
+namespace LaravelLiberu\Addresses\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Addresses\Http\Requests\ValidatePostcode;
-use LaravelEnso\Addresses\Http\Resources\Postcode as Resource;
-use LaravelEnso\Addresses\Models\Postcode as Model;
+use LaravelLiberu\Addresses\Http\Requests\ValidatePostcode;
+use LaravelLiberu\Addresses\Http\Resources\Postcode as Resource;
+use LaravelLiberu\Addresses\Models\Postcode as Model;
 
 class Postcode extends Controller
 {

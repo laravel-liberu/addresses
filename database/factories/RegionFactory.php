@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Addresses\Database\Factories;
+namespace LaravelLiberu\Addresses\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use LaravelEnso\Addresses\Models\Region;
-use LaravelEnso\Countries\Models\Country;
+use LaravelLiberu\Addresses\Models\Region;
+use LaravelLiberu\Countries\Models\Country;
 
 class RegionFactory extends Factory
 {

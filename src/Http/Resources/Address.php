@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Addresses\Http\Resources;
+namespace LaravelLiberu\Addresses\Http\Resources;
 
 class Address extends OneLiner
 {

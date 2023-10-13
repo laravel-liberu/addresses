@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Addresses\Dynamics\Relations\User;
+namespace LaravelLiberu\Addresses\Dynamics\Relations\User;
 
 use Closure;
-use LaravelEnso\Addresses\Models\Address;
-use LaravelEnso\DynamicMethods\Contracts\Method;
+use LaravelLiberu\Addresses\Models\Address;
+use LaravelLiberu\DynamicMethods\Contracts\Method;
 
 class Addresses implements Method
 {

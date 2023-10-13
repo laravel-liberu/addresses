@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Addresses\Http\Controllers;
+namespace LaravelLiberu\Addresses\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Addresses\Http\Requests\ValidateAddressFetch;
-use LaravelEnso\Addresses\Http\Responses\Index as Response;
+use LaravelLiberu\Addresses\Http\Requests\ValidateAddressFetch;
+use LaravelLiberu\Addresses\Http\Responses\Index as Response;
 
 class Index extends Controller
 {

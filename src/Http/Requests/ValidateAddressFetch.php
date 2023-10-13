@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Addresses\Http\Requests;
+namespace LaravelLiberu\Addresses\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use LaravelEnso\Helpers\Traits\TransformMorphMap;
+use LaravelLiberu\Helpers\Traits\TransformMorphMap;
 
 class ValidateAddressFetch extends FormRequest
 {

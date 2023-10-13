@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Addresses\Database\Seeders;
+namespace LaravelLiberu\Addresses\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Carbon;
@@ -9,8 +9,8 @@ use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
-use LaravelEnso\Countries\Models\Country;
-use LaravelEnso\Helpers\Services\JsonReader;
+use LaravelLiberu\Countries\Models\Country;
+use LaravelLiberu\Helpers\Services\JsonReader;
 
 class LocalitySeeder extends Seeder
 {

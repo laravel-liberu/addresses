@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Addresses\Forms\Builders;
+namespace LaravelLiberu\Addresses\Forms\Builders;
 
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Addresses\Models\Address as Model;
-use LaravelEnso\Countries\Models\Country;
-use LaravelEnso\Forms\Services\Form;
+use LaravelLiberu\Addresses\Models\Address as Model;
+use LaravelLiberu\Countries\Models\Country;
+use LaravelLiberu\Forms\Services\Form;
 
 class Address
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\Addresses\Models;
+namespace LaravelLiberu\Addresses\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\Countries\Models\Country;
-use LaravelEnso\Helpers\Contracts\Activatable;
-use LaravelEnso\Helpers\Traits\ActiveState;
-use LaravelEnso\Rememberable\Traits\Rememberable;
+use LaravelLiberu\Countries\Models\Country;
+use LaravelLiberu\Helpers\Contracts\Activatable;
+use LaravelLiberu\Helpers\Traits\ActiveState;
+use LaravelLiberu\Rememberable\Traits\Rememberable;
 
 class Region extends Model implements Activatable
 {

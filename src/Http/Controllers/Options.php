@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Addresses\Http\Controllers;
+namespace LaravelLiberu\Addresses\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Addresses\Http\Resources\OneLiner;
-use LaravelEnso\Addresses\Models\Address;
-use LaravelEnso\Select\Traits\OptionsBuilder;
+use LaravelLiberu\Addresses\Http\Resources\OneLiner;
+use LaravelLiberu\Addresses\Models\Address;
+use LaravelLiberu\Select\Traits\OptionsBuilder;
 
 class Options extends Controller
 {

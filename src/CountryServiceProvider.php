@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Addresses;
+namespace LaravelLiberu\Addresses;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Addresses\Dynamics\Relations\Country\Localities;
-use LaravelEnso\Addresses\Dynamics\Relations\Country\Regions;
-use LaravelEnso\Countries\Models\Country;
-use LaravelEnso\DynamicMethods\Services\Methods;
+use LaravelLiberu\Addresses\Dynamics\Relations\Country\Localities;
+use LaravelLiberu\Addresses\Dynamics\Relations\Country\Regions;
+use LaravelLiberu\Countries\Models\Country;
+use LaravelLiberu\DynamicMethods\Services\Methods;
 
 class CountryServiceProvider extends ServiceProvider
 {

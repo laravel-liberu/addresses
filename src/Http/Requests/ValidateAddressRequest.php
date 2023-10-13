@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Addresses\Http\Requests;
+namespace LaravelLiberu\Addresses\Http\Requests;
 
 use Illuminate\Validation\Rule;
-use LaravelEnso\Countries\Models\Country;
+use LaravelLiberu\Countries\Models\Country;
 
 class ValidateAddressRequest extends ValidateAddressFetch
 {

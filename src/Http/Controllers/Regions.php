@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Addresses\Http\Controllers;
+namespace LaravelLiberu\Addresses\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use LaravelEnso\Addresses\Models\Region;
-use LaravelEnso\Select\Traits\OptionsBuilder;
+use LaravelLiberu\Addresses\Models\Region;
+use LaravelLiberu\Select\Traits\OptionsBuilder;
 
 class Regions extends Controller
 {

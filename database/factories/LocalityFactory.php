@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Addresses\Database\Factories;
+namespace LaravelLiberu\Addresses\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use LaravelEnso\Addresses\Models\Locality;
-use LaravelEnso\Addresses\Models\Region;
-use LaravelEnso\Addresses\Models\Township;
+use LaravelLiberu\Addresses\Models\Locality;
+use LaravelLiberu\Addresses\Models\Region;
+use LaravelLiberu\Addresses\Models\Township;
 
 class LocalityFactory extends Factory
 {

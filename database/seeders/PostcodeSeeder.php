@@ -1,16 +1,16 @@
 <?php
 
-namespace LaravelEnso\Addresses\Database\Seeders;
+namespace LaravelLiberu\Addresses\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
-use LaravelEnso\Addresses\Models\Postcode;
-use LaravelEnso\Countries\Models\Country;
-use LaravelEnso\Helpers\Services\JsonReader;
-use LaravelEnso\Helpers\Traits\SeederProgress;
+use LaravelLiberu\Addresses\Models\Postcode;
+use LaravelLiberu\Countries\Models\Country;
+use LaravelLiberu\Helpers\Services\JsonReader;
+use LaravelLiberu\Helpers\Traits\SeederProgress;
 use Symfony\Component\Finder\SplFileInfo;
 
 class PostcodeSeeder extends Seeder

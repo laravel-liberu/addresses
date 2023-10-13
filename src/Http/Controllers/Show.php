@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Addresses\Http\Controllers;
+namespace LaravelLiberu\Addresses\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Addresses\Http\Resources\Address as Resource;
-use LaravelEnso\Addresses\Models\Address;
+use LaravelLiberu\Addresses\Http\Resources\Address as Resource;
+use LaravelLiberu\Addresses\Models\Address;
 
 class Show extends Controller
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Addresses;
+namespace LaravelLiberu\Addresses;
 
 use Illuminate\Support\ServiceProvider;
 

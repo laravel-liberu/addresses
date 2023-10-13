@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Addresses\Http\Controllers;
+namespace LaravelLiberu\Addresses\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Addresses\Forms\Builders\Address as Form;
+use LaravelLiberu\Addresses\Forms\Builders\Address as Form;
 
 class Create extends Controller
 {

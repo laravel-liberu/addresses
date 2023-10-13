@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Addresses\Services;
+namespace LaravelLiberu\Addresses\Services;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Http;
-use LaravelEnso\Addresses\Exceptions\Localize;
-use LaravelEnso\Google\Models\Settings;
+use LaravelLiberu\Addresses\Exceptions\Localize;
+use LaravelLiberu\Google\Models\Settings;
 
 class Geocoding
 {

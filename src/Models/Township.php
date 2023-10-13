@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Addresses\Models;
+namespace LaravelLiberu\Addresses\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

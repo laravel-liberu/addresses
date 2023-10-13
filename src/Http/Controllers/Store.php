@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Addresses\Http\Controllers;
+namespace LaravelLiberu\Addresses\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Addresses\Exceptions\Address as Exception;
-use LaravelEnso\Addresses\Http\Requests\ValidateAddressRequest;
-use LaravelEnso\Addresses\Models\Address;
+use LaravelLiberu\Addresses\Exceptions\Address as Exception;
+use LaravelLiberu\Addresses\Http\Requests\ValidateAddressRequest;
+use LaravelLiberu\Addresses\Models\Address;
 
 class Store extends Controller
 {
