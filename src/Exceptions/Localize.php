@@ -2,9 +2,9 @@
 
 namespace LaravelLiberu\Addresses\Exceptions;
 
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 
-class Localize extends EnsoException
+class Localize extends LiberuException
 {
     public static function missingApiUrl()
     {

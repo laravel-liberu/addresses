@@ -2,9 +2,9 @@
 
 namespace LaravelLiberu\Addresses\Exceptions;
 
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 
-class Address extends EnsoException
+class Address extends LiberuException
 {
     public static function cannotRemoveDefault()
     {
